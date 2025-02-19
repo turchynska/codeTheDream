@@ -123,11 +123,44 @@
 // console.log(padded)
 
 //Boolean
-let a = 0;
-console.log(Boolean(a))
+// let a = 0;
+// console.log(Boolean(a))
 
-let b = "0";
-console.log(Boolean(b))
+// let b = "0";
+// console.log(Boolean(b))
 
-console.log(a == b)
+// console.log(a == b)
+
+//if else
+// const preferDark = false;
+// const colorofulMode = true;
+
+// if (preferDark) {
+//     console.log('dark mode set!');
+//     document.body.style.background = 'black'
+// } else if (colorofulMode){
+//     console.log("colorofulMode set!")
+//     document.body.style.background = 'yellow'
+// } else {
+//     console.log('light mode set!')
+//     document.body.style.background = 'white';
+// }
+
+
+//switch case
+// const colorMode = 'colorized';
+
+// switch (colorMode) {
+//     case "colorized":
+//         console.log("colorMode set!");
+//         document.body.style.background = 'blue';
+//         break;
+//     case 'light':
+//         console.log('light mode is set');
+//         document.body.style.background = 'white';
+//         break;
+//     default:
+//         console.log('dark mode is set');
+//         document.body.style.background = 'black'
+// }
 
