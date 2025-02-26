@@ -287,17 +287,17 @@
 //    Q15: 5
 
 // PUT YOUR CODE HERE
-let word1 = "Sunshine";
-let word2 = "Rainy";
+// let word1 = "Sunshine";
+// let word2 = "Rainy";
 
-function biggestStringLength(word1, word2) {
-    if (word1.length > word2.length) {
-        return word1.length;
-    } else if (word2.length < word1.length) {
-        return word2.length;
-    } else {
-        return word1.length
-    }
-}
-let emptyString = " ";
-console.log(biggestStringLength(emptyString, word1))
+// function biggestStringLength(word1, word2) {
+//     if (word1.length > word2.length) {
+//         return word1.length;
+//     } else if (word2.length < word1.length) {
+//         return word2.length;
+//     } else {
+//         return word1.length
+//     }
+// }
+// let emptyString = " ";
+// console.log(biggestStringLength(emptyString, word1))
