@@ -301,3 +301,102 @@
 // }
 // let emptyString = " ";
 // console.log(biggestStringLength(emptyString, word1))
+
+
+
+// function handleLikePost(step) {
+//   let likeCount = 0;
+//   return function addLike() {
+//     likeCount += step;
+//     return likeCount;
+//   }
+// }
+
+// const doubleLike = handleLikePost(2);
+
+// console.log(doubleLike());
+// console.log(doubleLike());
+// console.log(doubleLike());
+
+
+
+// const isAuthenticated = true;
+// let cartItemCount = 0;
+
+// if (isAuthenticated) {
+//   // add item to cart
+//   cartItemCount = 1;
+// } else {
+//   // tell user to login
+// //   console.log("Please log in!");
+//   cartItemCount = 0;
+// }
+
+// const cartItemCount = isAuthenticated ? 1 : 0;
+// console.log(cartItemCount);
+
+
+
+
+
+// const age = 12;
+
+// let greeting;
+
+// if (age < 10) {
+//   greeting = "Hey there";
+// } else if (age > 18) {
+//   greeting = "Greetings";
+// } else if (age > 10) {
+//   greeting = "What's up?";
+// } else {
+//   greeting = "That's an interesting age!";
+// }
+// console.log(greeting);
+
+// const greeting =
+//   age < 10
+//     ? "Hey there"
+//     : age > 18
+//     ? "Greetings"
+//     : age > 10
+//     ? "What's up?"
+//     : "That's an interesting age!";
+// console.log(greeting);
+
+
+// ---------- QUESTION 8 ----------????????????????????????????????????
+// Write a function called 'insertInArray' that takes an array parameter, makes a NEW array with the value '0' inserted at the second position in the NEW array.  The function should return the NEW array.  Use your 'full' variable from Question 6 to test.  NOTE: Assigning an array to a new variable does not make a copy, it's another reference to the same array.  To make a copy you can use the slice() method as in this example:
+// let newArray = originalArray.slice()
+// LEARNING MOMENT: Also console log the variable 'full' to compare the new array to the original.
+
+// EXAMPLE LOG:
+//    console.log("Q8: ", insertInArray(full));
+//    console.log("original array: ", full);
+// EXAMPLE OUTPUT: (if the array assigned to variable 'full' is ["dream", 19, "code", 24, 180])
+//    Q8: ["dream", 0, 19, "code", 24, 180]
+//    original array: ["dream", 19, "code", 24, 180]
+
+// PUT YOUR CODE HERE
+
+// ---------- QUESTION 9 ----------????????????????????????????????????????????????
+// Write a function called 'compareArrays' that takes two Array parameters (containing numbers or strings only) and returns true if they are equal, false if not.  The purpose of this function should be to look at each element of the two arrays and compare them, returning false when they either hit two items that don't match, or returning false if the two arrays themselves are different lengths. You can test this with the 'empty' and 'full' variables from Question 6, and/or you can create a variable called 'compare' and assign it an array identical to 'full' to compare those.  To further test your function's accuracy, create a new variable called 'part' that is a partial copy of the 'full' variable and test that as well.
+
+// REMEMBER: In JavaScript, 1 === '1' is false, but 1 == '1' is true. You'll need to use the triple equals operator which is more strict because it compares data type.
+
+// EXAMPLE LOG:
+//    console.log("Q9 same: ", compareArrays(full, compare));
+// EXAMPLE OUTPUT: (if both arrays assigned to variable 'full' and 'compare' are ["dream", 19, "code", 24])
+//    Q9 same: true
+
+// EXAMPLE LOG:
+//    console.log("Q9 different: ", compareArrays(full, empty));
+// EXAMPLE OUTPUT: (if using variables from Question 6)
+//    Q9 different: false
+
+// EXAMPLE LOG:
+//    console.log("Q9 partial: ", compareArrays(full, part));
+// EXAMPLE OUTPUT: (if 'full' variable is ["dream", 19, "code", 24] and if 'part' variable is ["dream", 19, "code"])
+//    Q9 different: false
+
+// PUT YOUR CODE HERE
