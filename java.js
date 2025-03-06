@@ -400,3 +400,53 @@
 //    Q9 different: false
 
 // PUT YOUR CODE HERE
+
+
+//MATH floor & random & round
+// let randomNumber = Math.random();
+// console.log(randomNumber)
+
+// let numCards = 52;
+// let cardsNumber = Math.floor(numCards * Math.random()) + 1;
+// console.log(cardsNumber)
+
+// let score = 8.3;
+// let roundedScore = Math.round(score);
+// console.log(roundedScore)
+
+
+//LOOP while && for && do while & break & continue
+// for (let i = 1; i <= 3; i++){
+//     console.log("Count:" + i)
+// }
+
+// let i = 0;
+// while(i < 3){
+//     console.log("Step:" + i);
+//     i++;
+// }
+
+// let i = 0;
+// do {
+//     console.log("Step:" + i)
+//     i++;
+// } while (i < 3);
+
+// for (let i = 0; i < 5; i++){
+//     if (i === 3) break;
+//     console.log(i)
+// }
+
+// for (let i = 0; i < 5; i++){
+//     if (i === 2)continue
+//         console.log(i)
+// }
+
+//ARRAY Map ///reduce
+// let books = ["harry potter", 'lord of the ringd', ' the obbit'];
+// let upperCase = books.map((book) => book.toUpperCase());
+// console.log(upperCase)
+
+// let pages = [150, 200, 300, 400];
+// let totalPages = pages.reduce((total, book) => total + book, 0)
+// console.log(totalPages)
