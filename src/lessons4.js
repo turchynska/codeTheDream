@@ -564,4 +564,4 @@ function startsWithLetter(arr, letter) {
 console.log(`Q20 startsWithLetter T:`, startsWithLetter(jokeStrings, "T"));
 console.log(`Q20 startsWithLetter I:`, startsWithLetter(jokeStrings, "I"));
 console.log(`Q20 startsWithLetter i:`, startsWithLetter(jokeStrings, "i"));
-// console.log (`Q20 startsWithLetter dog:`, startsWithLetter(jokeStrings, "dog"));
+console.log (`Q20 startsWithLetter dog:`, startsWithLetter(jokeStrings, "dog"));
